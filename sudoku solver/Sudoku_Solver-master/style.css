@@ -1,0 +1,135 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background: url(https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: 550px;
+    padding-left:790px;
+    background-color: blanchedalmond;
+    text-decoration: none;
+} 
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#logo img{
+    width: 100%;
+}
+
+.Header img{
+    height:50px;
+    width: 50px;
+}
+
+#name{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+}
+
+#GetPuzzle,#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+#GetPuzzle:hover{
+background-color: #0c4266;
+color:#edf7ff;
+}
+#SolvePuzzle:hover{
+    background-color: #0c4266;
+    color:#edf7ff;
+    }
+.box1{
+    background-color: #a1f64d;
+    border: 2px solid  white;
+}
+
+.box1:hover{
+    background-color: #63ac1b;
+    color: black;
+}
+
+.box2{
+    background-color: #c02cda;
+    border: 2px solid  white;
+}
+.box2:hover{
+    background-color: #51075f;
+}
+
+.box3{
+    background-color: hsl(179, 87%, 51%);
+    border: 2px solid  white;
+}
+.box3:hover{
+    background-color: hsl(179, 86%, 28%);
+    color: black
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
